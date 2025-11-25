@@ -186,7 +186,93 @@ header{
     width: 100% !important;
   }
   .big-paragraph{
+    display: flex;
+    flex-direction: column;
     align-items: center !important;
-    justify-content: center !important;
+    text-align: center;
   }
+  .head-btn{
+    text-align: center;
+  }
+  .head-cart{
+    height: 100svh !important;
+    padding: 5px;
+    margin-left: 0px !important;
+    margin-top: 12%;
+  }
+  .cart{
+    width: 92svw !important;
+    margin-inline: auto;
+  }
+  .product-section{
+    margin-top: 98svh;
+  }
+  .product-section h2{
+    text-align: center;
+  }
+  .float-income{
+    top: -7% !important;
+    left: -2% !important;
+  }
+  .paragraph-btns{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .paragraph-btns > .w-50{
+    width: 100% !important;
+  }
+  .main-image{
+    right: -6% !important;
+  }
+
+  .product-containers .row .border-end{
+    border-right: transparent !important;
+    border-bottom: 1px solid #262626 !important;
+  }
+
+  .product-containers .row .p-2{
+    padding: 10% !important;
+  }
+
+  .last-section{
+    .p-5{
+      padding: 15% !important;
+    }
+    .d-flex{
+      flex-direction: column;
+      text-align: center;
+    }
+    .last-title{
+      width: 100% !important;
+    }
+  }
+
+  .footer-links img{
+    width: 140px !important;
+  }
+
+  .container > .d-flex{
+    flex-wrap: wrap;
+  }
+
+  .email , .phone , .location{
+    width: 45%;
+  }
+
+  .contact{
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+  .social img{
+    width: 40px;
+  }
+  footer .rounded-pill{
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
 }
