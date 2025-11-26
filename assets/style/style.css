@@ -121,12 +121,13 @@ header{
 
 /*               Last Section                */
 
-.last-btn button{
+.last-btn a{
   background-color: #CAFF33;
   border: none;
+  text-decoration: none;
 }
 
-.last-btn button:hover{
+.last-btn a:hover{
   background-color: #a1cc29;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -193,7 +194,7 @@ header{
     text-align: center;
   }
   .head-cart{
-    height: 100svh !important;
+    height: 75svh !important;
     padding: 5px;
     margin-left: 0px !important;
     margin-top: 12%;
@@ -203,7 +204,7 @@ header{
     margin-inline: auto;
   }
   .product-section{
-    margin-top: 98svh;
+    margin-top: 60svh;
   }
   .product-section h2{
     text-align: center;

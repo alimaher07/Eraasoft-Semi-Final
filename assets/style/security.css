@@ -50,22 +50,6 @@ body{
   -o-transition: 0.4s;
 }
 
-/*               Last Section                */
-
-.last-btn button{
-  background-color: #CAFF33;
-  border: none;
-}
-
-.last-btn button:hover{
-  background-color: #a1cc29;
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-}
-
 /*               footer                */
 
 .social img{
@@ -111,7 +95,7 @@ body{
     padding: 15px !important;
   }
   .head-section{
-    height: 103svh !important;
+    height: 89svh !important;
   }
   .head-paragraph{
     width: 100% !important;

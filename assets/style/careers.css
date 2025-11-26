@@ -52,12 +52,14 @@ body{
 
 /*               Last Section                */
 
-.last-btn button{
+.last-btn a{
   background-color: #CAFF33;
   border: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.last-btn button:hover{
+.last-btn a:hover{
   background-color: #a1cc29;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -111,7 +113,7 @@ body{
     padding: 15px !important;
   }
   .head-section{
-    height: 100svh !important;
+    height: 91svh !important;
   }
   .head-paragraph{
     top: 0% !important;

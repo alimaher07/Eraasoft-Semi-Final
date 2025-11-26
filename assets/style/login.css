@@ -50,22 +50,6 @@ body{
   -o-transition: 0.4s;
 }
 
-/*               Last Section                */
-
-.last-btn button{
-  background-color: #CAFF33;
-  border: none;
-}
-
-.last-btn button:hover{
-  background-color: #a1cc29;
-  transition: 0.4s;
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -ms-transition: 0.4s;
-  -o-transition: 0.4s;
-}
-
 /*               footer                */
 
 .social img{
