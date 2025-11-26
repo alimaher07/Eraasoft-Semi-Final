@@ -130,7 +130,56 @@ body{
   .mission-vission{
     text-align: center;
   }
+  .mission-container .pic , .vission-container .pic{
+    width: 100svw !important;
+  }
+  .mission-container .ps-5{
+    padding-left: 0 !important;
+  }
   .m-containers .d-flex{
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
+  }
+  .mission-paragraph{
+    border-left: none !important;
+    border-top: 2px solid #7ea021;
+  }
+  .vission-container .pic{
+    margin-top: 20px;
+  }
+  .vission-container .vission-paragraph{
+    border-right: none !important;
+    border-top: 2px solid #7ea021;
+  }
+  .vission-container .pe-5{
+    padding-right: 0 !important;
+  }
+  .vission-paragraph , .mission-paragraph{
+    padding-top: 20px !important;
+  }
+  .footer-links img{
+    width: 140px !important;
+  }
+
+  .container > .d-flex{
+    flex-wrap: wrap;
+  }
+
+  .email , .phone , .location{
+    width: 45%;
+  }
+
+  .contact{
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+  .social img{
+    width: 40px;
+  }
+  footer .rounded-pill{
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
   }
 }

@@ -50,6 +50,28 @@ body{
   -o-transition: 0.4s;
 }
 
+.log-f-btn{
+  background-color: #262626;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.reg-f-btn{
+  background-color: #CAFF33;
+}
+
+.reg-f-btn:hover{
+  background-color: #a1cc29;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
 /*               Last Section                */
 
 .last-btn button{
@@ -84,4 +106,58 @@ body{
   -moz-transition: ease 0.6s;
   -ms-transition: ease 0.6s;
   -o-transition: ease 0.6s;
+}
+@media screen and (max-width: 576px) {
+  body > .py-5{
+    padding: 1rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 0rem !important;
+  }
+  header .links , header .btns{
+    display: none !important;
+  }
+  header .d-none{
+    display: inline !important;
+  }
+  main{
+    padding: 10px;
+  }
+  section div{
+    text-align: center !important;
+  }
+  .inputs input{
+    width: 72svw !important;
+  }
+  .pass-input input , .l-name-input{
+    margin-top: 20px;
+  }
+  .container > a{
+    width: 72svw !important;
+  }
+  .footer-links img{
+    width: 140px !important;
+  }
+
+  .container > .d-flex{
+    flex-wrap: wrap;
+  }
+
+  .email , .phone , .location{
+    width: 45%;
+  }
+
+  .contact{
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+  .social img{
+    width: 40px;
+  }
+  footer .rounded-pill{
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+  }
 }

@@ -62,17 +62,15 @@ header{
   width: fit-content;
 }
 
-.check-icon img{
-  
-}
 
-.head-btn button{
+.head-btn a{
   background-color: #CAFF33;
   color: #262626;
   border: none;
+  text-decoration: none;
 }
 
-.head-btn button:hover{
+.head-btn a:hover{
   background-color: #a1cc29;
   transition: 0.4s;
   -webkit-transition: 0.4s;

@@ -85,3 +85,91 @@ body{
   -ms-transition: ease 0.6s;
   -o-transition: ease 0.6s;
 }
+
+@media screen and (max-width: 576px) {
+  body > .py-5{
+    padding: 1rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 0rem !important;
+  }
+  header .links , header .btns{
+    display: none !important;
+  }
+  header .d-none{
+    display: inline !important;
+  }
+  main{
+    padding: 10px;
+  }
+  .head{
+    padding-top: 15px;
+  }
+  section .d-flex{
+    flex-direction: column-reverse;
+  }
+  section > .p-5{
+    padding: 15px !important;
+  }
+  .head-section{
+    height: 103svh !important;
+  }
+  .head-paragraph{
+    width: 100% !important;
+    top: -2% !important;
+    text-align: center !important;
+  }
+  .head-section > .p-5{
+    padding: 20px !important;
+    padding-inline: 50px !important;
+  }
+  .head-img img{
+    width: 100% !important;
+    right: 0% !important;
+    top: 10%;
+  }
+  .protecting-title{
+    text-align: center;
+  }
+  .protecting .col-12{
+    padding: 20px !important;
+    border-right: 0px !important;
+  }
+  .protecting .row .d-flex{
+    flex-direction: row !important;
+  }
+  .protecting .benf-row{
+    border-top: none !important;
+  }
+  .protecting .mt-5{
+    margin-top: 10px !important;
+  }
+  .protecting .pt-5{
+    padding-top: 10px !important;
+  }
+  .footer-links img{
+    width: 140px !important;
+  }
+
+  .container > .d-flex{
+    flex-wrap: wrap;
+  }
+
+  .email , .phone , .location{
+    width: 45%;
+  }
+
+  .contact{
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+  .social img{
+    width: 40px;
+  }
+  footer .rounded-pill{
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+  }
+}
